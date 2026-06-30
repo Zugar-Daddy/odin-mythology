@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: inherit;
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    height: 500px;
+}
+.header {
+    height: 56px;
+    width: auto;
+    display: flex;
+}
+.hd-logo{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 15px;
+    align-self: center;
+}
+.hd-link{
+    justify-content: flex-end;
+    color: silver;
+    margin: 16px;
+    font-style: italic;
+}
+.sign-up{
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 16px;
+}
+.intro-box{
+    margin-top: 50px;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+.intro-text .title{
+    font-size: 48px;
+    font-weight: 900;    
+    color: #F9FAF8;
+}
+.intro-text .secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/*  -----------------------------  */
+.page2{
+    background-color: white;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    font-size: 48px;
+    color: black;
+    font-weight: 900;
+    margin: 50px;
+}
+.card-list{
+    display: flex;
+    margin: 10px;
+    gap: 25px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px;
+}
+.card .card-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    border: 10px solid #3882F6;
+    padding: 10px;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 25px;
+}
+.card .text{
+    background-color: rgba(0, 255, 255, 0.148);
+    border-radius: 25px;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    size: 20px;
+}
+/*  -----------------------------  */
+
+.page3{
+    background-color: #E5E7EB;
+    height: 500px;
+    margin: 0px;
+}
+
+.quote{
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    padding: 125px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.quote .by{
+    align-self: flex-end;
+}
+/*  -----------------------------  */
+.page4{
+    display:flex;
+    height: 150px;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 15px;
+    background-color: #3882F6;    
+    align-items: center;
+}
+.page4 .sign-up{
+    margin-right: 200px;
+    margin-left: auto;
+    margin-top: 0px;
+    border: 3px solid white;
+}
+.page4 .text{
+    padding: 50px;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+.footer{
+    height: 80px;
+    display: flex;
+    background-color: rgb(190, 67, 67);
+    align-items: center;
+    justify-content: center;
+}
